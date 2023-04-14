@@ -1,8 +1,11 @@
 body {
     background: #CCCCCC;;
 }
+#banner {
+
+}
 h1 {
-    background: blue; 
+    color: blue; 
     text-align: center;
 }
 p {
