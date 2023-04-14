@@ -9,8 +9,10 @@ body {
     padding: 30px;
 }
 h1 {
-    color: blue; 
     text-align: center;
+}
+.titulo-principal {
+    padding-left: 20px;
 }
 p {
     
@@ -21,6 +23,10 @@ p {
 em strong {
     color: red;
 }
+.titulos-centralizados {
+
+    text-align: center; 
+}
 
 .itens {
     font-style: italic;
@@ -30,7 +36,7 @@ em strong {
     background-color: white;
     padding: 20px;
 }
-h2 {
+h3 {
     text-align: center;
 }
 ul { 
