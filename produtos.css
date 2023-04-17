@@ -66,3 +66,7 @@ text-decoration: underline;
     font-weight: bold;
     margin-top: 10px;
 }
+footer {
+    text-align: center;
+    background-color: #cccccc;
+}
