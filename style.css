@@ -1,37 +1,3 @@
-* Página de contato */
-.contato {
-	width: 940px;
-	margin: 40px auto;
-}
-
-.contato label, .input-group legend {
-	display: block;
-	margin: 0 0 5px;
-	font-size: 20px;
-}
-
-.campo-padrao, textarea {
-	display: block;
-	margin: 0 0 30px;
-	padding: 10px 20px;
-	width: 50%;
-	border: 1px solid #aaa;
-}
-
-.input-group {
-	margin: 0 0 20px;
-}
-
-.newsletter {
-	margin: 0 0 20px;
-}
-
-
-.funcionamento {
-	width: 940px;
-	margin: 0 auto 40px;
-}
-
 main {
     width: 940px;
     margin: 0 auto;
