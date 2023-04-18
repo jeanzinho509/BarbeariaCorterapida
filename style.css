@@ -157,6 +157,12 @@ td, th {
 	margin: 2em auto;
 }
 
+footer {
+    text-align: center;
+    background-color: url("asset/bg.jpg");
+    padding: 40px 0;
+}
+
 @media screen and (max-width: 480px) {
     .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
         width: auto;
