@@ -1,8 +1,11 @@
 body	{
-	font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0%;
+  padding: 0%;
+
 }
 main {
-    width: 940px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -54,8 +57,44 @@ ul {
     width: 50%;
 }
 /*css da pagina inicial */
+
 .banner	{
 	width: 100%;
+}
+
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+color: #c78c19;
+text-decoration: underline;
 }
 
 .titulo-principal	{
@@ -138,7 +177,7 @@ ul {
 }
 .imagem-benefcios	{
 	width: 60%;
-	opacity: 1;
+	opacity: 0.3;
 	transform: 400ms;
 	box-shadow: 10px 10px 10px 0 #000000;
 }
@@ -155,24 +194,84 @@ ul {
 
 footer {
     text-align: center;
-    background-color: url("bg.jpg");
+    background-image: url('bg.jpg');
     padding: 40px 0;
 }
 
-@media screen and (max-width: 480px) {
-    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
-        width: auto;
-    }
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
 
-    h1 {
-        text-align: center;
-    }
+/* Estilos para dispositivos com largura menor ou igual a 768px */
+@media (max-width: 768px) {
+  /* Estilos para o menu */
+  .menu {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu-item {
+    margin-bottom: 10px;
+  }
+  /* Estilos para a imagem principal */
+  .imagem-principal {
+    width: 100%;
+    height: auto;
+  }
+}
 
-    nav {
-        position: static;
-    }
+/* Estilos para dispositivos com largura maior que 768px */
+@media (min-width: 769px) {
+  /* Estilos para o menu */
+  .menu {
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu-item {
+    margin-right: 10px;
+  }
+  /* Estilos para a imagem principal */
+  .imagem-principal {
+    width: 50%;
+    float: left;
+    margin-right: 20px;
+  }
+  /* Estilos para a seção de conteúdo */
+  .conteudo {
+    width: 50%;
+    float: left;
+  }
+}
 
-    .lista-beneficios, .imagem-beneficios {
-        width: 100%;
-    }
+/* Estilos para o layout geral */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu-item {
+  list-style: none;
+}
+
+.imagem-principal {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.conteudo {
+  display: block;
+  margin-bottom: 20px;
 }

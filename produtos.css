@@ -81,7 +81,7 @@ text-decoration: underline;
 
 footer {
     text-align: center;
-    background-color: url("bg.jpg");
+    background-image: url('bg.jpg');
     padding: 40px 0;
 }
 
@@ -155,4 +155,76 @@ th  {
 td, th {
 	border: 1px solid #000000;
 	padding: 5px 20px;
+}
+
+/* Estilos para dispositivos com largura menor ou igual a 768px */
+@media (max-width: 768px) {
+  /* Estilos para o menu */
+  .menu {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu-item {
+    margin-bottom: 10px;
+  }
+  /* Estilos para a imagem principal */
+  .imagem-principal {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Estilos para dispositivos com largura maior que 768px */
+@media (min-width: 769px) {
+  /* Estilos para o menu */
+  .menu {
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu-item {
+    margin-right: 10px;
+  }
+  /* Estilos para a imagem principal */
+  .imagem-principal {
+    width: 50%;
+    float: left;
+    margin-right: 20px;
+  }
+  /* Estilos para a seção de conteúdo */
+  .conteudo {
+    width: 50%;
+    float: left;
+  }
+}
+
+/* Estilos para o layout geral */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu-item {
+  list-style: none;
+}
+
+.imagem-principal {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.conteudo {
+  display: block;
+  margin-bottom: 20px;
 }
