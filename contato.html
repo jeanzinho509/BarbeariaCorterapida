@@ -2,7 +2,7 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="”UTF-8”">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> Produtos - Barbearia Corte Rapida</title>
   <link rel="stylesheet" href="reset.css">
@@ -10,9 +10,11 @@
 </head>
 
 <body>
+  <a name="topo"></a>
   <header>
     <div class="caixa">
-      <h1><img src="logo-.jpg" alt="Logo da barbearia Corte Rapida"></h1>
+      <h1><a href="index.html">
+        <img src="logo-.png" alt="LOGO da barbearia"> </a></h1>
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -61,33 +63,37 @@
 
       <input type="submit" value="Enviar formulário" class="enviar">
     </form>
-
-    <table>
-      <thead>
-        <tr>
-          <th>Dia</th>
-          <th>Horário</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Segunda</td>
-          <td>8h ~ 20h</td>
-        </tr>
-        <tr>
-          <td>Quarta</td>
-          <td>8h ~ 20h</td>
-        </tr>
-        <tr>
-          <td>Sexta</td>
-          <td>8h ~ 20h</td>
-        </tr>
-      </tbody>
-    </table>
+    
+    <div id="horario">
+      <table>
+        <thead>
+          <tr>
+            <th>Dia</th>
+            <th>Horário</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Segunda</td>
+            <td>8h ~ 20h</td>
+          </tr>
+          <tr>
+            <td>Quarta</td>
+            <td>8h ~ 20h</td>
+          </tr>
+          <tr>
+            <td>Sexta</td>
+            <td>8h ~ 20h</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </main>
   <footer class="copyright">
-    <img src="logo-branco.png" alt="Logo da Barbearia Corte Rapida">
+    <a href="index.html">
+      <img src="logo-branco.png" alt="LOGO da barbearia"> </a>
     <p class="copyright">&copy; Copyright Barbearia Barbearia Corte Rapida - 2023</p>
+    <a id="voltar" href="#topo">Voltar ao inicio da página</a>
   </footer>
 </body>
 

@@ -3,30 +3,65 @@ main {
     margin: 0 auto;
 }
 
+header {
+  background: #222d6e;
+  padding: 20px 0;
+}
+
+.caixa {
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+color: #c78c19;
+text-decoration: underline;
+}
 form {
-    margin: 40px 0;
+    margin: 0 40px 0;
 }
 
 form label, form legend {
 	display: block;
 	font-size: 20px;
-	margin: 0 0 10px;
+	margin: 0 20px;
 }
 
 .input-padrao	{
 	display: block;
-	margin: 0 0 20px;
+	margin: 0 20px;
 	padding: 10px 25px;
 	width: 50%;
 }
 
 .checkbox	{
-	margin: 20px 0;
+	margin: 0 20px 0;
 }
 
 .enviar	{
 	width: 40%;
 	padding: 15px 0;
+  margin: 0 auto;
 	background: orange;
 	color: white;
 	font-weight: bold;
@@ -41,6 +76,10 @@ form label, form legend {
 	transform: scale(1.2);
 	background: darkorange;
 	
+}
+
+#horario {
+  margin: 0 20px;
 }
 
 table {
