@@ -160,12 +160,12 @@ iframe  {
   align-self: center;
 }
 
-.box :first-child {
-  width: 150px;
+.box-bene :first-child {
+  width: 220px;
   
 }
 
-.box > * {
+.box-bene> * {
   flex: 0 0 auto;
 }
 
