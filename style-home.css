@@ -2,7 +2,6 @@ body	{
   font-family: 'Montserrat', sans-serif;
   margin: 0%;
   padding: 0%;
-  background:#222d6e;
 }
 main {
     width: 100%;
@@ -95,9 +94,7 @@ color: #c78c19;
 text-decoration: underline;
 }
 
-main  {
-  background: #222d6e;
-}
+
 .titulo-principal	{
 	text-align: center;
 	font-size: 2em;
@@ -175,13 +172,13 @@ iframe  {
 
 .beneficios  {
 	padding: 3em 0 ;
-	background: #222d6e;
+	background: #FFFFFF;
 	
 }
 .conteudo-beneficios	{
 	width: 640px;
 	margin: 0 auto;
-  background: #222d6e;
+  background: #FFFFFF;
 }
 
 .lista-beneficios	{
