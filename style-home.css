@@ -7,10 +7,14 @@ main {
     width: 100%;
     margin: 0 auto;
 }
+main {
+  background: #FFF;
+}
 
 #banner {
  width: 100%;
 }
+
 .principal {
     background: #CCCCCC;
     padding: 30px;
@@ -104,7 +108,7 @@ text-decoration: underline;
 
 .principal	{
 	padding: 3em 0;
-	background: #3551ad;
+	background: #ffffff;
 	width: 100%px;
 }
 
@@ -128,7 +132,7 @@ text-decoration: underline;
 
 .mapa	{
 	padding: 3em 0 ;
-	background: linear-gradient(#3551ad, #222d6e);
+	background: #ffffff);
 }
 
 .mapa-conteudo	{
